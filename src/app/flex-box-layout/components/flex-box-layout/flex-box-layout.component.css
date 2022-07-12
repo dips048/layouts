@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-content {
+  display: flex;
+}
+
+.main-content {
+  flex: 2 2 12em;
+}
+
+.content-navigation, .content-sidebar {
+  flex: 1;
+}
